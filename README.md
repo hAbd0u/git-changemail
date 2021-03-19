@@ -10,11 +10,12 @@ read [this](http://stacktoheap.com/blog/2013/01/06/using-mailmap-to-fix-authors-
 
 ##Installation
 
-Download and symlink to your path
+Download, set the execute permission and symlink to your path
 
 ```bash
 $ git clone https://github.com/albfan/git-changemail 
 $ cd git-changemail
+$ chmod +x git-changemail
 $ ln -s $PWD/git-changemail ~/bin/
 ```
 
